@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.language-switcher {
+    margin-bottom: 20px;
+}
+
+.language-switcher button {
+    background-color: #2a77d2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.language-switcher button:hover {
+    background-color: #1a5ca3;
+}
+
+.support-container {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    max-width: 600px;
+    text-align: center;
+    display: none;
+}
+
+h1 {
+    color: #2a77d2;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+    font-size: 18px;
+    text-align: left;
+}
+
+ul li a {
+    color: #2a77d2;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+.icon {
+    font-size: 24px;
+    margin-right: 8px;
+}
+
+/* Footer message styles */
+.footer {
+    font-size: 14px;
+    margin-top: 40px;
+    color: #888;  /* Gray color */
+    text-align: center;
+}
