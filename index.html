@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WorkoutHub Support Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function changeLanguage(lang) {
+            document.querySelectorAll('.lang').forEach(el => el.style.display = 'none');
+            document.querySelectorAll(`.lang-${lang}`).forEach(el => el.style.display = 'block');
+        }
+    </script>
+</head>
+<body onload="changeLanguage('en')">
+    
+
+    <!-- English Version -->
+    <div class="support-container lang lang-en">
+        <div class="language-switcher">
+            <button onclick="changeLanguage('en')">English</button>
+            <button onclick="changeLanguage('ru')">Русский</button>
+        </div>
+        <h1>WorkoutHub Support</h1>
+        <p>We are always striving to make WorkoutHub better and more user-friendly for you! If you have ideas for improving the app, have noticed a bug, or want to suggest new features, we would love to hear from you. Your feedback helps us grow and create a product that truly meets your expectations.</p>
+        
+        <p>You can reach out to our team directly via the following email addresses:</p>
+        <ul class="email-list">
+            <li><span class="icon">📧</span><a href="mailto:workouthubapp@gmail.com">workouthubapp@gmail.com</a> — for general inquiries and suggestions.</li>
+            <li><span class="icon">📧</span><a href="mailto:vladbehim@gmail.com">vladbehim@gmail.com</a> — direct contact with the project founder.</li>
+        </ul>
+
+        <p><strong>What can you send?</strong></p>
+        <ul>
+            <li><strong>Bug reports:</strong> Describe any issues you have encountered. The more details you provide, the faster we can fix them.</li>
+            <li><strong>Ideas and suggestions:</strong> Share your thoughts on improving functionality, user interface, or new features you would like to see.</li>
+            <li><strong>Feedback:</strong> Your experience matters to us! Let us know what you love and where you think we could improve.</li>
+        </ul>
+    </div>
+
+    <!-- Russian Version -->
+    <div class="support-container lang lang-ru">
+        <div class="language-switcher">
+            <button onclick="changeLanguage('en')">English</button>
+            <button onclick="changeLanguage('ru')">Русский</button>
+        </div>
+        <h1>Поддержка WorkoutHub</h1>
+        <p>Мы всегда стремимся сделать WorkoutHub лучше и удобнее для вас! Если у вас есть идеи по улучшению приложения, вы заметили ошибку или хотите предложить новые функции, мы с радостью выслушаем ваши предложения. Ваш вклад помогает нам расти и создавать продукт, который действительно соответствует вашим ожиданиям.</p>
+        
+        <p>Вы можете напрямую связаться с нашей командой по следующим адресам электронной почты:</p>
+        <ul class="email-list">
+            <li><span class="icon">📧</span><a href="mailto:workouthubapp@gmail.com">workouthubapp@gmail.com</a> — для общих вопросов и предложений.</li>
+            <li><span class="icon">📧</span><a href="mailto:vladbehim@gmail.com">vladbehim@gmail.com</a> — напрямую основателю проекта.</li>
+        </ul>
+
+        <p><strong>Что можно отправить?</strong></p>
+        <ul>
+            <li><strong>Баг-репорты:</strong> Опишите проблему, с которой вы столкнулись. Чем больше деталей вы предоставите, тем быстрее мы сможем её исправить.</li>
+            <li><strong>Идеи и предложения:</strong> Делитесь своими мыслями по улучшению функционала, интерфейса или новых возможностей, которые вы хотели бы видеть.</li>
+            <li><strong>Обратная связь:</strong> Нам важен ваш опыт! Расскажите, что вам нравится и где, по вашему мнению, есть возможности для улучшений.</li>
+        </ul>
+    </div>
+
+    <!-- Footer message -->
+    <div class="footer">
+        Together, we are building the best fitness app! 💪😊
+    </div>
+</body>
+</html>
